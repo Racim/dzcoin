@@ -3,13 +3,13 @@ DZcoin Core integration/staging tree
 
 [![Build Status](https://travis-ci.org/dzcoin/dzcoin.svg?branch=master)](https://travis-ci.org/dzcoin/dzcoin)
 
-https://dzcoincore.org
+https://dzcoincore.org (coming soon)
 
 What is DZcoin?
 ----------------
 
 DZcoin is an experimental local digital currency for Algerian citizens. DZcoin
-enables instant payments to anyone, anywhere in the Algeria. 
+enables instant payments to anyone, anywhere in Algeria. 
 DZcoin uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
 out collectively by the network. 
