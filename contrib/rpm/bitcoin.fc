@@ -1,0 +1,8 @@
+/usr/bin/dzcoin-cli		--	gen_context(system_u:object_r:dzcoin_exec_t,s0)
+/usr/sbin/dzcoind		--	gen_context(system_u:object_r:dzcoin_exec_t,s0)
+/usr/lib(64)?/dzcoin/dzcoind		--	gen_context(system_u:object_r:dzcoin_exec_t,s0)
+
+/etc/dzcoin(/.*)?		gen_context(system_u:object_r:dzcoin_conf_t,s0)
+/var/lib/dzcoin(/.*)?		gen_context(system_u:object_r:dzcoin_var_lib_t,s0)
+
+(/var)?/run/dzcoind(/.*)?   gen_context(system_u:object_r:dzcoin_var_run_t,s0)

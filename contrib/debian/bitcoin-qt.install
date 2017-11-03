@@ -1,0 +1,6 @@
+usr/local/bin/dzcoin-qt usr/bin
+share/pixmaps/dzcoin32.xpm usr/share/pixmaps
+share/pixmaps/dzcoin16.xpm usr/share/pixmaps
+share/pixmaps/dzcoin128.png usr/share/pixmaps
+debian/dzcoin-qt.desktop usr/share/applications
+debian/dzcoin-qt.protocol usr/share/kde4/services/

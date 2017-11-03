@@ -1,0 +1,2 @@
+usr/local/bin/dzcoind usr/bin
+usr/local/bin/dzcoin-cli usr/bin

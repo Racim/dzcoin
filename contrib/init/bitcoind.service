@@ -1,0 +1,22 @@
+[Unit]
+Description=Bitcoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=dzcoin
+Group=dzcoin
+
+Type=forking
+PIDFile=/var/lib/dzcoind/dzcoind.pid
+ExecStart=/usr/bin/dzcoind -daemon -pid=/var/lib/dzcoind/dzcoind.pid \
+-conf=/etc/dzcoin/dzcoin.conf -datadir=/var/lib/dzcoind -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
